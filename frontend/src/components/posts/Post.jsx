@@ -25,7 +25,7 @@ const Post = ({ eachPost, onDelete, onUpdate }) => {
 
 
     const instance = axios.create({
-        baseURL: "http://localhost:5000/api",
+        baseURL: "https://react-crud.cyclic.app/",
 
     })
 
