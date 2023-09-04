@@ -38,7 +38,7 @@ const Home = () => {
     }
 
     const instance = axios.create({
-        baseURL: "https://react-crud.cyclic.app"
+        baseURL: "https://react-crud.cyclic.app/api"
 
     })
 
