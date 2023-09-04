@@ -3,6 +3,7 @@ import path from 'path';
 const __dirname = path.resolve();
 import 'dotenv/config';
 import  cors from 'cors';
+import postRouter from './api/routes/posts.mjs';
 
 
 
@@ -10,7 +11,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-import postRouter from './api/routes/posts.mjs';
 
 
 

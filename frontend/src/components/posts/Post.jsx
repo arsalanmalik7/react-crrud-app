@@ -39,14 +39,6 @@ const Post = ({ eachPost, onDelete, onUpdate }) => {
 
     const postIdRef = useRef(null);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setDeletePost(false);
-        }, 2000);
-
-        // return () => clearTimeout(timer);
-    }, [])
-
     const handleDeleteClick = () => {
         postIdRef.current = eachPost._id;
 
