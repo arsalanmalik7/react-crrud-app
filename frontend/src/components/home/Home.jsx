@@ -38,7 +38,7 @@ const Home = () => {
     }
 
     const instance = axios.create({
-        baseURL: "http://localhost:5000/api",
+        baseURL: "https://gorgeous-pocketbook-bat.cyclic.app",
 
     })
 
