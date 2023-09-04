@@ -25,7 +25,7 @@ const Post = ({ eachPost, onDelete, onUpdate }) => {
 
 
     const instance = axios.create({
-        baseURL: "https://gorgeous-pocketbook-bat.cyclic.app",
+        baseURL: "https://gorgeous-pocketbook-bat.cyclic.app/",
 
     })
 
